@@ -1,0 +1,129 @@
+@import url(fonts.css);
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+::-webkit-scrollbar  {
+    width: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #DD4400;
+    border-radius: 3px;
+}
+
+body {
+    font-family: "Rubik";
+    background: #FFEFE5;
+}
+
+/* .box {
+    width: 80%;
+    background: blue;
+    height: 200px;
+    position: relative;
+}
+
+.item {
+    width: 100px;
+    height: 100px;
+    background: red;
+    left: 50px;
+    right: 50px;
+    top: 50px;
+    bottom: 50px;
+    position: relative;
+    position: absolute;
+    position: fixed;
+} */
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+.container {
+    max-width: 1140px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.btn {
+    background: #FF8D4C;
+    max-width: 219px;
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+    padding: 7px;
+    color: #FFF;
+    border-radius: 30px;
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.3);
+    transition: 0.5s;
+}
+
+.btn:hover {
+    background: #DD4400;
+}
+.nav {
+    background: #FFF;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 30px 15px;
+    width: 100px;
+    overflow: hidden;
+    overflow-y: auto;
+    transition: 0.5s;
+}
+
+.nav:hover {
+    width: 234px;
+}
+
+.logo__img {
+    width: 60px;
+}
+
+.avatar__img {
+    width: 70px;
+    height: 70px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 3px solid #DD4400;
+}
+
+.menu__link {
+    color: #939393;
+    font-size: 18px;
+    margin: 55px 0;
+    display: flex;
+    align-items: center;
+    transition: 0.5s;
+}
+
+.menu__link:hover {
+    color: #DD4400;
+}
+
+.menu__icon {
+    font-size: 36px;
+    margin-right: 29px;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    flex-shrink: 0;
+}
+
+.menu {
+    margin-left: 15px;
+}
